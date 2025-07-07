@@ -10,10 +10,10 @@ html {
 }
 
 :root {
-    --primaria: #4f46e5; 
-    --secundaria: #7c3aed; 
+    --primaria: #004E98; 
+    --secundaria: #FF7F00; 
     --escuro: #0f172a;
-    --maisEscuro: #0a0f1c;
+    --maisEscuro: #0c1d47;
     --claro: #e2e8f0;
     --vidro: rgba(255, 255, 255, 0.1);
 }
@@ -26,7 +26,7 @@ body {
 
 .navegacao {
     position: fixed;
-    background: rgba(15, 23, 42, 0.8);
+    background: rgba(11, 35, 92, 0.8);
     width: 100%;
     z-index: 100;
     top: 0;
@@ -82,7 +82,7 @@ body {
 
 h1 {
     font-size: 2rem;
-    color: var(--primaria);
+    color: var(--claro);
     font-weight: bold;
     margin: 20px;
 }
@@ -313,7 +313,7 @@ h1 {
     z-index: -1;
     opacity: 0.5;
     background: 
-    radial-gradient(circle at 10% 20%, var(--primaria) 0%, transparent 20%),
+    radial-gradient(circle at 10% 20%, var(--secundaria) 0%, transparent 20%),
     radial-gradient(circle at 90% 80%, var(--secundaria) 0%, transparent 20%),
     var(--maisEscuro);
 }
